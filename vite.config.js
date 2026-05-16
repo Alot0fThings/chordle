@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/chordle/', // making this change explicit brh
+  base: '/p146/',
   plugins: [react()],
   build: {
     outDir: "docs"
