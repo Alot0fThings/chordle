@@ -96,7 +96,7 @@ export default function TriadDaily(props) {
     return <div style={{ textAlign: "center" }}>
         <h1>Daily</h1>
         <Image
-            src={`/p146/triads/${chord.name.replaceAll("#", "sharp")}.svg`}
+            src={`/chordle/triads/${chord.name.replaceAll("#", "sharp")}.svg`}
             alt={chord.description}
             style={{ height: 400, width: 400 }} />
 
